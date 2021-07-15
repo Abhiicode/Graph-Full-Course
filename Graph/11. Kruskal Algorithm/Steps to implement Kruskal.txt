@@ -1,0 +1,4 @@
+Well this is easy so, what you have to do is store all the edges with their weight in an array of struct Node sort them acc
+to edges weight now keep connecting the two nodes if they belongs to diff component this can be done easily by disjoint set
+with the help of union and findPar function as you take the edge in your mst keep a array of pair<int,int> and maintain all
+the connected edges
